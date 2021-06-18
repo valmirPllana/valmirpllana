@@ -1,0 +1,72 @@
+body {
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-header {
+    background-image: url("../img/slideee.png");
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.active {
+    border-bottom: 2px solid #3aca75;
+}
+
+a:hover {
+    color: #3aca75 !important;
+}
+
+.activepage {
+    color: #3aca75;
+}
+
+h4:hover {
+    color: #3aca75;
+}
+
+.card-text {
+    color: gray;
+}
+
+.loadMorebtn {
+    border: 1px solid gray;
+    padding: 5px 15px 5px 15px;
+}
+
+.light-bg {
+    background-color: #3aca75;
+}
+
+.bg-card {
+    background-color: rgb(219, 216, 216);
+    border: 2px solid #3aca75;
+}
+
+@media and screen (max-width 770px) {
+    .sidebar ul li {
+        display: inline-block;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-green {
+    color: #3aca75;
+}
+
+#btnContact {
+    border: 2px solid wheat;
+    border-radius: 5px;
+    background-color: #3aca75;
+    color: white;
+    font-size: 25px;
+    padding: 5px 10px 5px 10px;
+}
